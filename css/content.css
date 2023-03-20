@@ -1,0 +1,22 @@
+.main{
+    flex: 2;
+    display: grid;
+    grid-template-areas:"img img" "head main-content";
+}
+.main .img{
+    grid-area: img;
+}
+.main .img img{
+    width: 100%;
+}
+.main .head{
+    grid-area: head;
+}
+
+.main .main-content{
+    grid-area: main-content;
+}
+
+.new{
+    flex: 1;
+}
